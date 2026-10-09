@@ -1,4 +1,4 @@
-import profileImage from '../assets/profile/profile.jpg';
+import profileImage from '../assets/profile/profile.png';
 import ecommerceImage from '../assets/projects/ecommerce.jpg';
 import ecommerceUiuxImage from '../assets/projects/ecommerce-uiux.jpg';
 import uiuxCertificateImage from '../assets/certificates/uiux-certificate.jpg';
@@ -6,9 +6,9 @@ import frontendCertificateImage from '../assets/certificates/frontend-certificat
 import promptEngineeringImage from '../assets/achievements/prompt-engineering.jpg';
 
 export const links = {
-  github: 'ADD_GITHUB_LINK_HERE',
+  github: 'https://github.com/VIDYA07-01',
   linkedin: 'https://www.linkedin.com/in/vidyashree-nandani-805807399',
-  resume: 'ADD_RESUME_LINK_HERE',
+  resume: 'vidyashree_resume',
 };
 
 export const navigation = [
@@ -62,7 +62,7 @@ export const projects = [
     image: ecommerceImage,
     tags: ['HTML', 'CSS', 'JavaScript', 'React'],
     projectLink: 'ADD_PROJECT_LINK_HERE',
-    githubLink: 'ADD_GITHUB_PROJECT_LINK_HERE',
+    githubLink: 'https://github.com/VIDYA07-01',
   },
   {
     id: 'PROJECT 02',
@@ -72,7 +72,7 @@ export const projects = [
     image: ecommerceUiuxImage,
     tags: ['UI/UX', 'Wireframes', 'Responsive Design', 'UX Research'],
     projectLink: 'ADD_UIUX_PROJECT_LINK_HERE',
-    githubLink: null,
+    githubLink: 'https://github.com/VIDYA07-01',
   },
 ];
 
@@ -96,7 +96,7 @@ export const certificates = [
 export const achievements = [
   {
     title: '1st Place – Internal Smart India Hackathon',
-    description: 'I achieved 1st Place in the Internal Smart India Hackathon at the college level.',
+    description: 'I achieved 1st Place in the Internal Smart India Hackathon at the college level.Bharat Land Research & Governance Portal  — Team Project    • Developed a prototype to centralize land research, policies, datasets, GIS information, and case studies.• Contributed to search, data management, GIS, reports, authentication, and collaboration features.',
     image: null,
   },
   {
