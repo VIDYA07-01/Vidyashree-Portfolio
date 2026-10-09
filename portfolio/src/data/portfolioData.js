@@ -2,8 +2,9 @@ import profileImage from '../assets/profile/profile.png';
 import ecommerceImage from '../assets/projects/ecommerce.jpg';
 import ecommerceUiuxImage from '../assets/projects/ecommerce-uiux.jpg';
 import uiuxCertificateImage from '../assets/certificates/uiux-certificate.jpg';
-import frontendCertificateImage from '../assets/certificates/frontend-certificate.jpg';
-import promptEngineeringImage from '../assets/achievements/prompt-engineering.jpg';
+import frontendCertificateImage from '../assets/certificates/frontend-certificate.jpeg';
+import promptEngineeringImage from '../assets/achievements/promptengineering.jpg';
+import sihImage from '../assets/achievements/sih_certificates.jpg';
 
 export const links = {
   github: 'https://github.com/VIDYA07-01',
@@ -82,14 +83,14 @@ export const certificates = [
     category: 'UI/UX Design',
     description: 'Certificate focused on user interface design principles and user-centered thinking.',
     image: uiuxCertificateImage,
-    link: 'ADD_UIUX_CERTIFICATE_LINK_HERE',
+ 
   },
   {
     title: 'Frontend Development Certificate',
     category: 'Frontend Development',
     description: 'Certificate highlighting frontend fundamentals and interactive web development learning.',
     image: frontendCertificateImage,
-    link: 'ADD_FRONTEND_CERTIFICATE_LINK_HERE',
+
   },
 ];
 
@@ -97,7 +98,7 @@ export const achievements = [
   {
     title: '1st Place – Internal Smart India Hackathon',
     description: 'I achieved 1st Place in the Internal Smart India Hackathon at the college level.Bharat Land Research & Governance Portal  — Team Project    • Developed a prototype to centralize land research, policies, datasets, GIS information, and case studies.• Contributed to search, data management, GIS, reports, authentication, and collaboration features.',
-    image: null,
+    image: sihImage,
   },
   {
     title: 'Prompt Engineering Competition',
