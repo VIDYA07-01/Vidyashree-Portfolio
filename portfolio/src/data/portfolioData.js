@@ -1,7 +1,7 @@
 import profileImage from '../assets/profile/profile.png';
-import ecommerceImage from '../assets/projects/ecommerce.jpg';
-import ecommerceUiuxImage from '../assets/projects/ecommerce-uiux.jpg';
-import uiuxCertificateImage from '../assets/certificates/uiux-certificate.jpg';
+import bharatlandImage from '../assets/projects/bharat-land.jpeg';
+import ecommerceUiuxImage from '../assets/projects/uiuxproject.jpeg';
+import uiuxCertificateImage from '../assets/certificates/uiux-certificate.jpeg';
 import frontendCertificateImage from '../assets/certificates/frontend-certificate.jpeg';
 import promptEngineeringImage from '../assets/achievements/promptengineering.jpg';
 import sihImage from '../assets/achievements/sih_certificates.jpg';
@@ -57,12 +57,12 @@ export const skills = [
 export const projects = [
   {
     id: 'PROJECT 01',
-    title: 'E-Commerce Website',
+    title: 'Bharat Land Research & Governance Portal',
     description:
-      'Developed a responsive e-commerce website with a user-friendly interface, product-focused layout, responsive design, navigation, and interactive frontend functionality.',
-    image: ecommerceImage,
-    tags: ['HTML', 'CSS', 'JavaScript', 'React'],
-    projectLink: 'ADD_PROJECT_LINK_HERE',
+      'AI-assisted team project built with React.js. Developed a prototype to centralize land research, policies, datasets, GIS information, and case studies. Contributed to search, data management, GIS, reports, authentication, and collaboration features.',
+    image: bharatlandImage,
+    tags: ['React.js', 'Team Project', 'AI-Assisted', 'GIS', 'Data Management'],
+    projectLink: 'ADD_BHARAT_LAND_PORTAL_LINK_HERE',
     githubLink: 'https://github.com/VIDYA07-01',
   },
   {
@@ -97,7 +97,7 @@ export const certificates = [
 export const achievements = [
   {
     title: '1st Place – Internal Smart India Hackathon',
-    description: 'I achieved 1st Place in the Internal Smart India Hackathon at the college level.Bharat Land Research & Governance Portal  — Team Project    • Developed a prototype to centralize land research, policies, datasets, GIS information, and case studies.• Contributed to search, data management, GIS, reports, authentication, and collaboration features.',
+    description: 'I achieved 1st Place in the Internal Smart India Hackathon at the college level.',
     image: sihImage,
   },
   {

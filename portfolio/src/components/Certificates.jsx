@@ -2,8 +2,6 @@ import { ArrowUpRight } from 'lucide-react';
 import { certificates } from '../data/portfolioData';
 import ImageFallback from './ImageFallback';
 
-const isDisabledLink = (url) => typeof url === 'string' && url.startsWith('ADD_');
-
 function Certificates() {
   return (
     <section id="certificates" className="section reveal" data-reveal>
@@ -14,7 +12,10 @@ function Certificates() {
 
       <div className="container certificate-grid">
         {certificates.map((certificate) => (
-          <article className="certificate-card" key={certificate.title}>
+          <article
+            className="certificate-card"
+            key={certificate.title}
+          >
             <div className="certificate-image-wrap">
               <ImageFallback
                 src={certificate.image}
@@ -26,25 +27,22 @@ function Certificates() {
 
             <div className="certificate-body">
               <h3>{certificate.title}</h3>
-              <span className="certificate-category">{certificate.category}</span>
+
+              <span className="certificate-category">
+                {certificate.category}
+              </span>
+
               <p>{certificate.description}</p>
 
-              {isDisabledLink(certificate.link) ? (
-                <button type="button" className="card-btn disabled" disabled>
-                  View Certificate
-                  <ArrowUpRight size={16} />
-                </button>
-              ) : (
-                <a
-                  href={certificate.link}
-                  className="card-btn"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Certificate
-                  <ArrowUpRight size={16} />
-                </a>
-              )}
+              <a
+                href={certificate.image}
+                className="card-btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Certificate
+                <ArrowUpRight size={16} />
+              </a>
             </div>
           </article>
         ))}

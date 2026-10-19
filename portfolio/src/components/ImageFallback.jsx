@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 function ImageFallback({ src, alt, className = '', label = 'Image unavailable' }) {
-  const [hasError, setHasError] = useState(false);
+  const [hasError, setHasError] = useState(!src);
 
   if (hasError) {
     return (

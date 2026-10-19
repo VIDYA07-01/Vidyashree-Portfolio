@@ -1,4 +1,3 @@
-import { ArrowUpRight } from 'lucide-react';
 import { projects } from '../data/portfolioData';
 import ImageFallback from './ImageFallback';
 
@@ -13,7 +12,7 @@ function Projects() {
       </div>
 
       <div className="container project-grid">
-        {projects.map((project, index) => (
+        {projects.map((project) => (
           <article className="project-card" key={project.title}>
             <div className="project-number">{project.id}</div>
             <div className="project-image-wrap">
@@ -38,18 +37,6 @@ function Projects() {
               </div>
 
               <div className="project-actions">
-                {isDisabledLink(project.projectLink) ? (
-                  <button type="button" className="card-btn disabled" disabled>
-                    View Project
-                    <ArrowUpRight size={16} />
-                  </button>
-                ) : (
-                  <a href={project.projectLink} className="card-btn" target="_blank" rel="noreferrer">
-                    View Project
-                    <ArrowUpRight size={16} />
-                  </a>
-                )}
-
                 {project.githubLink && isDisabledLink(project.githubLink) ? (
                   <button type="button" className="secondary-card-btn disabled" disabled>
                     GitHub
